@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import A from "../../Assets/Projects/Coming_Soon.png";
-import B from "../../Assets/Projects/Coming_Soon.png";
-import C from "../../Assets/Projects/Coming_Soon.png";
+import bankist from "../../Assets/Projects/bankist_back.png";
+import personal_site from "../../Assets/Projects/personal_site.png";
+import online_drum from "../../Assets/Projects/drum_play.png";
 import D from "../../Assets/Projects/Coming_Soon.png";
 import E from "../../Assets/Projects/Coming_Soon.png";
 import F from "../../Assets/Projects/Coming_Soon.png";
@@ -23,38 +23,38 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={A}
+              imgPath={bankist}
               isBlog={false}
-              title="x"
-              description="xx"
-              ghLink="x"
-              demoLink="x"
+              title="Bankist App"
+              description="USER: ar, ss, us PIN: 1111, 2222, 3333 respectively. Take a look at the demo below."
+              ghLink="https://github.com/itsrajadarsh/Bankist"
+              demoLink="https://bankist-adarsh.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={B}
+              imgPath={personal_site}
               isBlog={false}
-              title="x"
-              description="xx"
-              ghLink="x"
-              demoLink="x"
+              title="Simple Portfolio"
+              description="Personal Website made with HTML and CSS only."
+              ghLink="https://github.com/itsrajadarsh/mySite"
+              demoLink="https://html-site-adarsh.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={C}
+              imgPath={online_drum}
               isBlog={false}
-              title="x"
-              description="xx"
-              ghLink="x"
-              demoLink="x"             
+              title="Play Drum Online"
+              description="simple drum-kit, play with keyboard or mouse and enjoy the music!"
+              ghLink="https://github.com/itsrajadarsh/drumKit"
+              demoLink="https://drum-kit-adarsh.vercel.app/"             
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={D}
               isBlog={false}
@@ -85,7 +85,7 @@ function Projects() {
               ghLink="x"
               demoLink="x"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
