@@ -5,8 +5,8 @@ import Particle from "../Particle";
 import bankist from "../../Assets/Projects/bankist_back.png";
 import personal_site from "../../Assets/Projects/personal_site.png";
 import online_drum from "../../Assets/Projects/drum_play.png";
-import D from "../../Assets/Projects/Coming_Soon.png";
-import E from "../../Assets/Projects/Coming_Soon.png";
+import ticTacToe from "../../Assets/Projects/ticTacToe.png";
+import secrets from "../../Assets/Projects/secrets.png";
 import F from "../../Assets/Projects/Coming_Soon.png";
 
 function Projects() {
@@ -50,33 +50,33 @@ function Projects() {
               title="Play Drum Online"
               description="simple drum-kit, play with keyboard or mouse and enjoy the music!"
               ghLink="https://github.com/itsrajadarsh/drumKit"
-              demoLink="https://drum-kit-adarsh.vercel.app/"             
+              demoLink="https://drum-kit-adarsh.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ticTacToe}
+              isBlog={false}
+              title="Tic-Tac-Toe"
+              description="Game made up of React, can be played with two players"
+              ghLink="https://github.com/itsrajadarsh/react/tree/main/ticTacToe"
+              demoLink="https://tictactoe-x-o.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={secrets}
+              isBlog={false}
+              title="Secrets Vault"
+              description="An Anonymous Secret Keeping Platform with strong encryption and user authentication."
+              ghLink="https://github.com/itsrajadarsh/authentication/tree/main/secretsVault%20Project"
+              // demoLink="x"
             />
           </Col>
 
           {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={D}
-              isBlog={false}
-              title="x"
-              description="xx"
-              ghLink="x"
-              demoLink="x"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={E}
-              isBlog={false}
-              title="x"
-              description="xx"
-              ghLink="x"
-              demoLink="x"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={F}
               isBlog={false}
