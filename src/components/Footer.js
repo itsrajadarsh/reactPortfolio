@@ -18,7 +18,7 @@ function Footer() {
           <h3>Adarsh Raj</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} AR</h3>
+          <h3>Copyright &copy; {year} itsrajadarsh</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -26,7 +26,7 @@ function Footer() {
               <a
                 href="https://github.com/itsrajadarsh"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -46,7 +46,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/itsrajadarsh/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />

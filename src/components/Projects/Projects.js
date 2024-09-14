@@ -7,7 +7,7 @@ import personal_site from "../../Assets/Projects/personal_site.png";
 import online_drum from "../../Assets/Projects/drum_play.png";
 import ticTacToe from "../../Assets/Projects/ticTacToe.png";
 import secrets from "../../Assets/Projects/secrets.png";
-import F from "../../Assets/Projects/Coming_Soon.png";
+import countdownTimer from "../../Assets/Projects/countdownTimer.png";
 
 function Projects() {
   return (
@@ -45,12 +45,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={online_drum}
+              imgPath={countdownTimer}
               isBlog={false}
-              title="Play Drum Online"
-              description="simple drum-kit, play with keyboard or mouse and enjoy the music!"
-              ghLink="https://github.com/itsrajadarsh/drumKit"
-              demoLink="https://drum-kit-adarsh.vercel.app/"
+              title="Final Countdown"
+              description="Try to stop the timer as close to zero as possible, testing your reflexes and precision through varying difficulty levels"
+              ghLink="https://github.com/itsrajadarsh/react/tree/main/finalCountdown"
+              demoLink="https://countdown-seconds.vercel.app/ "
             />
           </Col>
 
@@ -67,6 +67,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={online_drum}
+              isBlog={false}
+              title="Play Drum Online"
+              description="simple drum-kit, play with keyboard or mouse and enjoy the music!"
+              ghLink="https://github.com/itsrajadarsh/drumKit"
+              demoLink="https://drum-kit-adarsh.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={secrets}
               isBlog={false}
               title="Secrets Vault"
@@ -75,17 +86,6 @@ function Projects() {
               // demoLink="x"
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={F}
-              isBlog={false}
-              title="x"
-              description="xx"
-              ghLink="x"
-              demoLink="x"
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
